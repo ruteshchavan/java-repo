@@ -3,6 +3,7 @@
 // public method can be accessed only through objects.
 
 public class Method {
+
   // Static method
   static void myStaticMethod() {
     System.out.println("Static methods can be called without creating objects");
@@ -16,7 +17,7 @@ public class Method {
   public static void main(String[] args) {
     myStaticMethod(); // Call the static method
 
-    Method myObj = new Method(); // Create an object of MyClass
+    Method myObj = new Method(); // Create an object of Method
     myObj.myPublicMethod(); // Call the public method
   }
 }
