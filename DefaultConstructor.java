@@ -1,4 +1,3 @@
-// Constructor is a special method which is called automatically when an object is created.
 // A constructor which has no argument is known as default constructor.
 
 public class DefaultConstructor {
