@@ -16,7 +16,7 @@ class Car {
     String color;
 }
 
-public class ObjectClass {
+public class ObjectClass1 {
     public static void main(String args[]) {
         Car a1=new Car();   // object created
         a1.brand="BMW";
