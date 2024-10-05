@@ -1,23 +1,26 @@
-// static and public modifiers.
+
 // static method can be accessed without creating objects of the class.
-// public method can be accessed only through objects.
+// public/Instance method can be accessed only through objects.
 
 public class Method {
 
   // Static method
-  static void myStaticMethod() {
+  static void myStaticMethod(int x,int y) {
     System.out.println("Static methods can be called without creating objects");
+    System.out.println(x*y);
   }
 
-  // Public method
-  public void myPublicMethod() {
-    System.out.println("Public methods must be called by creating objects");
+  // Instance method
+  public static void myPublicMethod(int a,int b) {
+    System.out.println("Instance methods must be called by creating objects");
+    System.out.println(a+b);
   }
 
   public static void main(String[] args) {
-    myStaticMethod(); // Call the static method
+    myStaticMethod(10,20); // Call the static method
 
     Method myObj = new Method(); // Create an object of Method
-    myObj.myPublicMethod(); // Call the public method
+    myObj.myPublicMethod(10,20); // Call the public method
+   
   }
 }
