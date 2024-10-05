@@ -1,4 +1,5 @@
-import java.util.*;
+// String is sequence of character's or Character array.
+// To declare string use keyword 'String'.
 
 public class Str {
     public static void main(String[] args) {
@@ -30,6 +31,22 @@ public class Str {
         // substring
         // substring(begin index , end index)
         System.out.println(content.substring(5,content.length()));
+
+        // print string to lowercase
+        System.out.println(fname.toLowerCase());
+
+        // print to uppercase
+        System.out.println(lname.toUpperCase());
+
+        // replace the in string
+        System.out.println(content.replaceAll("Java","VS Code"));
+
+        //replace a old character with new character in string.
+        System.out.println(fname.replace('e', 'a'));
+
+        // to check index of character.
+        System.out.println(fname.indexOf('l'));
+
 
     }
 }
