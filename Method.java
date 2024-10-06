@@ -1,4 +1,3 @@
-
 // static method can be accessed without creating objects of the class.
 // public/Instance method can be accessed only through objects.
 
@@ -11,7 +10,7 @@ public class Method {
   }
 
   // Instance method
-  public static void myPublicMethod(int a,int b) {
+  public void myPublicMethod(int a,int b) {
     System.out.println("Instance methods must be called by creating objects");
     System.out.println(a+b);
   }
