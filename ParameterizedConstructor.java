@@ -2,7 +2,6 @@
 // It is used to provide different values to distinct objects.
 // One cannot inherit a constructor.
 
-
 public class ParameterizedConstructor {
         int age;
         String name;
@@ -19,7 +18,7 @@ public class ParameterizedConstructor {
     public static void main(String[] args) {
         ParameterizedConstructor a1=new ParameterizedConstructor(19,"Jack");
         ParameterizedConstructor a2=new ParameterizedConstructor(21,"Sam");
-        a1.print();;
+        a1.print();
         a2.print();
 
     }

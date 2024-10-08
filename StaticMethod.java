@@ -1,10 +1,19 @@
+
+import java.awt.AlphaComposite;
+
 /*
 If you apply static keyword with any method, it is known as static method.
 A static method can access static data member and can change the value of it.
+The static method can not use non static data member or call non-static method directly.
+this and super cannot be used in static context.
+
+Why is the Java main method static -
+It is because the object is not required to call a static method. 
+If it were a non-static method, JVM creates an object first then call main() method.
 
 */
 
-class Company {
+class Comp {
     int emp_id;
     float salary;
     static String company="TCS";
@@ -13,8 +22,12 @@ class Company {
         company="BOSCH";
     }
 
+    static void call(){
+        System.out.println("Welcome Everyone");
+    }
+
     //constructor
-    Company(int a, float b) {
+    Comp(int a, float b) {
        emp_id=a;
        salary=b;
     }
@@ -22,17 +35,15 @@ class Company {
     void display(){
         System.out.println(emp_id +" "+ salary+" "+ company);
     }
-
 }
-
 
 public class StaticMethod {
     public static void main(String[] args) {
-      Company a1=new Company(101,80000);
-      Company a2=new Company(102,85000);
-      Company.change();   // calling static method 
+      Comp a1=new Comp(101,80000);
+      Comp a2=new Comp(102,85000);
+      Comp.change();   // calling static method 
+      Comp.call();
       a1.display();
       a2.display();
-
     }    
 }
