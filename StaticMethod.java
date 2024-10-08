@@ -1,6 +1,4 @@
 
-import java.awt.AlphaComposite;
-
 /*
 If you apply static keyword with any method, it is known as static method.
 A static method can access static data member and can change the value of it.
@@ -26,7 +24,7 @@ class Comp {
         System.out.println("Welcome Everyone");
     }
 
-    //constructor
+    //constructor   
     Comp(int a, float b) {
        emp_id=a;
        salary=b;
