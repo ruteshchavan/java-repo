@@ -1,6 +1,11 @@
 /*
 If subclass (child class) has the same method as declared in the parent class, it is known as method overriding in Java.
-Method overriding is used to provide the specific implementation of a method which is already provided by its superclass.
+If the reference variable of Parent class refers to the object of Child class, it is known as upcasting.
+Polymorphism is a concept by which we can perform a single action in different ways.
+The word "poly" means many and "morphs" means forms. So polymorphism means many forms.
+
+Run-Time Polymorphism -
+This type of polymorphism is resolved during runtime. It is achieved through method overriding.
 
 */
 
