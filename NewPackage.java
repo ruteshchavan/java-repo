@@ -10,7 +10,6 @@ The -d keyword specifies the destination for where to save the class file. Here 
    java package_name.file_name          eg. java simple.NewPackage.java
 */
 
-package simple;
 
 public class NewPackage {
     public static void main(String[] args) {

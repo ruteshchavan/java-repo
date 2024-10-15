@@ -1,5 +1,3 @@
-package sample;
-
 public class AccessPackage {
     private String Brand; 
     private String Phone;
