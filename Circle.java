@@ -1,4 +1,3 @@
-import simple.Polygon;
 
 public class Circle extends Polygon{
 	public double area() {
