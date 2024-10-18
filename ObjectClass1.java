@@ -9,6 +9,8 @@
     1.By reference variable
     2.By method
     3.By constructor
+JVM creates two area of Memory when it starts stack and heap.
+Variables are stored in stack.The heap stores objects.
 */
 
 class Car {

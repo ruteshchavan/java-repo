@@ -1,4 +1,9 @@
-public class AccessPackage {
+/* refer file Brand.java
+Demonstration of get and set methods.
+
+*/
+
+public class Access {
     private String Brand; 
     private String Phone;
     
