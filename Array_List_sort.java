@@ -1,5 +1,6 @@
 /*
 WAP to sort an array.
+
 Another useful class in the java.util package is the Collections class, 
 which include the sort() method for sorting lists alphabetically or numerically.
 

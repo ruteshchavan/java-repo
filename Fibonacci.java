@@ -15,8 +15,10 @@ public class Fibonacci {
         for(int i=2;i<num;i++){
             sum=a+b;
             System.out.print(" "+sum);
+           
             a=b;
             b=sum;
+            
         }
 
     }
