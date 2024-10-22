@@ -14,10 +14,13 @@ abstract void draw();
 }  
 
 class Rect extends Shape{  
-void draw(){System.out.println("drawing rectangle");}  
-}  
+void draw(){
+	System.out.println("drawing rectangle");}  
+} 
+
 class Circle1 extends Shape{  
-void draw(){System.out.println("drawing circle");}  
+void draw(){
+	System.out.println("drawing circle");}  
 }  
   
 class Abstract{  

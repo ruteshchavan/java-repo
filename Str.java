@@ -6,6 +6,7 @@ public class Str {
         String fname= "beetle";
         String lname= "juice";
         String content="Welcome to the Java";
+        String val="  Microsoft  ";
 
         // concatenation - combines two string
         String name=fname + lname;
@@ -46,6 +47,27 @@ public class Str {
 
         // to check index of character.
         System.out.println(fname.indexOf('l'));
+        
+        // trim() method eliminates leading and trailing spaces.
+        System.out.println(val.length()); // Before length
+        String a=val.trim(); 
+        System.out.println(a.length()); // After length
+        
+      // split() method splits the string based on whitespace .
+        String s1="java string split method by javatpoint";  
+        String[] words=s1.split("\\s");    
+        for(String w:words){  
+        System.out.println(w);  
+        }  
+        
+        
+        
+        
+        
+        
+        
+        
+        
 
 
     }
