@@ -14,12 +14,27 @@ public class Method {
     System.out.println("Instance methods must be called by creating objects");
     System.out.println(a+b);
   }
+  
+  public String getMePen(int cost) {
+	  if(cost>=10) {
+		  return "Pen Purchased";
+	  }
+	  else {
+		  return "Insufficient Balance..";
+	  }
+  }
 
   public static void main(String[] args) {
     myStaticMethod(10,20); // Call the static method
 
     Method myObj = new Method(); // Create an object of Method
     myObj.myPublicMethod(10,20); // Call the public method
+    
+    String a=myObj.getMePen(10);
+    String b=myObj.getMePen(5);
+    System.out.println(a);
+    System.out.println(b);
+    
    
   }
 }

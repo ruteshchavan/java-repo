@@ -5,7 +5,7 @@ public class PalindromeString {
         
         Scanner obj = new Scanner(System.in);
         String a=obj.next();   // user input
-        String b=a;   // string for comparision
+        String b=a;   // string for comparison.
         String rev="";   // storing reverse string
 
         for (int i=a.length()-1 ; i>=0 ; i--) {
