@@ -1,5 +1,5 @@
 /* object is an entity that has state , behavior and identity. Here, state means data and behavior means functionality and
-   identity is unique ID that i used by JVM to identify each object uniquely.
+   identity is unique ID that is used by JVM to identify each object uniquely.
 */ 
 // Collection of objects is called class. It is a logical entity.
 // class is a user-defined data type. Inside a class, we define variables, constants, methods , constructor's etc.

@@ -1,5 +1,5 @@
 /*
-Method overloading means multiple methods can have the same name but different no. parameters.
+Method overloading means multiple methods can have the same name but different no. parameters or return type.
 
 Compile-Time Polymorphism -
 This type of polymorphism is resolved during the compilation process. It is achieved through method overloading.

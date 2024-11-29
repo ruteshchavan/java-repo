@@ -35,7 +35,7 @@ public class Array_List {
 		 // To find out how many elements an ArrayList have, use the size() method
 		    System.out.println(cars.size());
 		    
-		 // addAll() method adds all of the items from a collection to the list.
+		 // add() method adds all of the items from a collection to the list.
 		    ArrayList<String> brands = new ArrayList<String>();
 		    brands.add("Microsoft");
 		    brands.add("Apple");

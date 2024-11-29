@@ -15,13 +15,11 @@ public class ArraySum {
             arr[i]=obj.nextInt();
         }
 
-        for(int i=0;i<x;i++){
-            sum+=arr[i];
+        for(int a : arr){
+            sum+=a;
         }
 
         System.out.println("Sum of array is : "+sum);
-
-
         
     }
 }

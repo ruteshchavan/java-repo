@@ -6,6 +6,7 @@ There are two ways to achieve abstraction in java :
 
 Abstract class: It is a restricted class that cannot be used to create objects (to access it, it must be inherited from another class).
 Abstract method: It can only be used in an abstract class, and it does not have a body. The body is provided by the subclass (inherited from).
+We cannot create object of a abstract class.We need to create object of inherited abstract class.
 */
 
 
