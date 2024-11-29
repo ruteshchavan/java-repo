@@ -3,7 +3,7 @@ The super keyword in Java is a reference variable which is used to refer immedia
 
 super keyword can be used to refer immediate parent class instance variable,parent class method and parent class constructor.
 
-We can use super keyword to access the data member/firld of parent class.It is used if parent class and child class have same fields.
+We can use super keyword to access the data member/field of parent class.It is used if parent class and child class have same fields.
 
 
 

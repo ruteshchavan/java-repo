@@ -1,7 +1,7 @@
 /*
 this is a reference variable that refers to the current object.
 
-this keyword can be used to refer current class instance variable 
+this keyword can be used to refer current class instance variable
 and resolves the problem of ambiguity between the instance variables and parameter.
 
 */
