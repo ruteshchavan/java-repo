@@ -5,7 +5,7 @@ ArrayList<Wraper_class> object_name = new ArrayList<Integer>(size);
 eg.: ArrayList<Integer> a = new ArrayList<Integer>(5); 
 */
 
-import java.util.ArrayList;   //import arraylist class which is found java.util package.
+import java.util.ArrayList;   //import ArrayList class which is found java.util package.
 
 public class Array_List {
 	public static void main(String[] args) {
@@ -17,9 +17,14 @@ public class Array_List {
 		    cars.add("BMW");
 		    cars.add("Ford");
 		    cars.add("Mazda");
-		    for(String x : cars) {
-		    	System.out.println(x);
+		    System.out.println(cars);  // prints elements on the same line inside [] bracket.
+		    System.out.println();
+		    
+		    for(String n : cars ) {
+		    	System.out.println(n);
 		    }
+		    System.out.println();
+		   
 		    
 		 // get() method used to access element in array
 		    System.out.println(cars.get(2));
@@ -46,9 +51,6 @@ public class Array_List {
 		  // The clear() method removes all items from the list.
 		    brands.clear();
 		    System.out.println(brands);
-		    
-		    
-		    
 		    
 	}
 }
