@@ -9,7 +9,7 @@ There are three types of exceptions namely:
 
 The try statement allows you to define a block of code to be tested for errors while it is being executed.
 The catch statement allows you to define a block of code to be executed, if an error occurs in the try block.
-The finally statement lets you execute code, after try...catch statement, regardless of the result.
+The finally statement lets you execute code, after try...catch statement, regardless of the result.	
 
 List of common Error and Exception :
 1. ArrayIndexOutOfBoundsException - Occurs when trying to access an index number that does not exist in an array.
@@ -42,6 +42,5 @@ public class ExceptionHandling {
 		    }
 	
 	}
-
 }
 
