@@ -24,18 +24,14 @@ public class Array_List_sort {
     
     // Original array output
     System.out.print("Original Array : "); 
-    for(Integer no : num) {
-    	System.out.print(no+" ");
-    }
+    System.out.println(num);
     
 	System.out.println();
     
     // sorted array output
     System.out.print("Sorted Array : "); 
-    Collections.sort(num);    
-    for(Integer no : num) {
-    	System.out.print(no+" ");
-    	}   
+    Collections.sort(num);
+    System.out.println(num);
     
     }
 }
