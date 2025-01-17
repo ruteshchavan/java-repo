@@ -29,7 +29,7 @@ public class ArrayMaxMin {
         }
 
         System.out.println("Maximum element from array is : "+max);
-        System.out.println("Maximum element from array is : "+min);
+        System.out.println("Minimum element from array is : "+min);
 
 
     }

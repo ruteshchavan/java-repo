@@ -27,7 +27,7 @@ public class ArrayEvenOdd {
         // loop to print odd elements of array.   
         System.out.print("Odd elements in Array are : ");
         for(int value:arr){
-            if(value%2==1){
+            if(value%2!=0){
                 System.out.print(value+" ");
             }
         }
