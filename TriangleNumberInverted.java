@@ -8,7 +8,7 @@
 
 import java.util.Scanner;
 
-public class PyramidNumberInverted {
+public class TriangleNumberInverted {
     public static void main(String[] args) {
         Scanner obj=new Scanner(System.in);
 

@@ -9,7 +9,7 @@
 
 import java.util.Scanner;
 
-public class PyramidInverted180 {
+public class TriangleInverted180 {
     public static void main(String[] args) {
     
         Scanner obj=new Scanner(System.in);
