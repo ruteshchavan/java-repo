@@ -31,24 +31,22 @@ public class ArrayMatrixIndex {
 
         System.out.println();
 
-        // to check wether element is present and print index
+        // to check whether element is present and print index
         System.out.println("Enter the element to check and print the index of the element :");
 
         int x=obj.nextInt();
+        int i=0;
+        int j=0;
 
-        for(int i=0;i<rows;i++){
-            for(int j=0;j<columns;j++){
+        for( i=0;i<rows;i++){
+            for(j=0;j<columns;j++){
                 if (x==arr[i][j]) {
                     System.out.println("Element found at index :"+"["+i+" "+j+"]");
                     break;
                 }
-                else{
-                    System.out.println("Element not present in array.");
-                    break;
-                }
             }
-            break;
         }
+       
 
     }
 }
