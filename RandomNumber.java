@@ -1,8 +1,13 @@
 import java.util.Random;
+
 public class RandomNumber {
     public static void main(String[] args) {
         Random rand=new Random();
-        int x=rand.nextInt(1000); // will generate random number from 0 to 1000.
-        System.out.println(x);        
+        // will generate random number from 0 to n.
+               
+        for(int i=0;i<1;i++) {
+        	int x=rand.nextInt(1,10);
+        	System.out.println(x); 
+        }
     }
 }

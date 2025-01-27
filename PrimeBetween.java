@@ -14,13 +14,14 @@ public class PrimeBetween {
  
 
         for(int i=a;i<=b;i++) {
-            for(j=2;j<=a;j++){
-                if(a%j==0) {
+            
+        	for(j=2;j<=i;j++){
+                if(i%j==0) {
                     break;
-                }
-                
+                }   
             }
-            if(j==a){
+        	
+            if(j==i){
                 System.out.print(i+" ");
             }
             
