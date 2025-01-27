@@ -8,7 +8,7 @@
 
 import java.util.*;    // imports all the libraries 
 
-public class Pyramid {
+public class FlyodsPyramid {
     public static void main(String[] args) {
     
         Scanner obj=new Scanner(System.in);
