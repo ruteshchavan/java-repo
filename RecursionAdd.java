@@ -1,6 +1,6 @@
 // WAP to print sum of 10 numbers using recursion.
 
-public class Recursion {
+public class RecursionAdd {
 
   public static int sum(int k) {
     if (k > 0) {

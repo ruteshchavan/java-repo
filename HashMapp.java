@@ -6,7 +6,7 @@ One object is used as a key (index) to another object (value).
 
 import java.util.HashMap;
 
-public class Mapp {
+public class HashMapp {
 
 	public static void main(String[] args) {
 		

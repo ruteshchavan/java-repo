@@ -1,6 +1,6 @@
 /*
 Java StringBuilder class is used to create mutable (modifiable) String.
-Difference between strbuilder and strbuffer is strbuffer is thread safe and strbuilder is not htread safe.
+Difference between strbuilder and strbuffer is strbuffer is thread safe and strbuilder is not thread safe.
 */
 
 public class StrBuilder {

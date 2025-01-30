@@ -15,21 +15,27 @@ public class Hash_Set {
 		
 		HashSet<Integer> num=new HashSet<Integer>();
 		
+		// Insert
 		num.add(45);
 		num.add(9);
 		num.add(14);
-		num.add(3);
-		num.add(14);   // duplicate element 
+		num.add(3); 
 		num.add(77);
 		
-		System.out.println(num.size());
+		System.out.println(num);
 		
-		Iterator<Integer> data=num.iterator();
 		
-		while(data.hasNext()) {
-			System.out.println(data.next());
-		}
+		// Search
+		if(num.contains(14)) {
+			System.out.println("Element found..");
+		}else System.out.println("Element not found...");
+		
+		// delete
+		num.remove(77);
+		System.out.println(num);
+		
+		// size
+		System.out.println("Total Elements : "+num.size());
 		
 	}
-
 }
