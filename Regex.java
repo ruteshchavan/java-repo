@@ -1,5 +1,5 @@
 /*
-Regular Expression is an API to define a pattern for searching or manipulating strings.
+Regular Expression (regex) is an powerful tool for defining patterns that can be used for searching , manipulating and editing strings.
 Regular expressions can be used to perform all types of text search and text replace operations.
 
 Import the java.util.regex package to work with regular expressions.
@@ -11,7 +11,7 @@ PatternSyntaxException Class - Indicates syntax error in a regular expression pa
 */
 
 import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.util.regex.Pattern;  
 
 public class Regex {
 
