@@ -12,7 +12,7 @@ public class PalindromeString {
             rev=rev + a.charAt(i);
         }
             
-        if (rev.equals(b)) {
+        if(rev.equals(b)) {
             System.out.println("Yes");
         } else {
             System.out.println("No");

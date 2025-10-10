@@ -44,6 +44,28 @@ public class Regex {
 	    else {
 	      System.out.println("Match not found");  
 	    }
+	    
+	    
+	    /* another approach 
+	      
+	     boolean result=Pattern.compile("java",Pattern.CASE_INSENSITIVE).matcher("java").matches();
+   	     System.out.println(result);
+	     
+	    */
+	    
+        System.out.println("[abc] matches a = " +   Pattern.matches("[abc]", "a"));
+        System.out.println("[abc] matches b = " +   Pattern.matches("[abc]", "b"));
+        System.out.println("[abc] matches c = " +   Pattern.matches("[abc]", "c"));
+        System.out.println("[abc] matches z = " +   Pattern.matches("[abc]", "z"));
+        System.out.println("[abc] matches aa = " +   Pattern.matches("[abc]", "aa"));
+        System.out.println("[abc] matches abc = " +   Pattern.matches("[abc]", "abc"));
+        System.out.println("[^abc] matches a = " +   Pattern.matches("[^abc]", "a"));
+        System.out.println("[^abc] matches b = " +   Pattern.matches("[^abc]", "b"));
+        System.out.println("[^abc] matches c = " +   Pattern.matches("[^abc]", "c"));
+        System.out.println("[^abc] matches z = " +   Pattern.matches("[^abc]", "z"));
+        System.out.println("[^abc] matches zz = " +   Pattern.matches("[^abc]", "zz"));
+        System.out.println("[^abc] matches zzz = " +   Pattern.matches("[^abc]", "zzz"));
+   
 
 	}
 }

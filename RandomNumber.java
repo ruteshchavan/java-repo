@@ -6,7 +6,7 @@ public class RandomNumber {
         // will generate random number from 0 to n.
                
         for(int i=0;i<1;i++) {
-        	int x=rand.nextInt(1,10);
+        	int x=rand.nextInt(1,13);
         	System.out.println(x); 
         }
     }
