@@ -22,8 +22,8 @@ class ScanMethod
      boolean married = var.nextBoolean();
 
 
-     System.out.println(\n);
-     System.out.println(\n);
+     System.out.println("\n");
+     System.out.println("\n");
    
 
      System.out.println("Name : " + name );
