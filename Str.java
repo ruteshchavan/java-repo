@@ -1,5 +1,7 @@
 // String is sequence of character's or Character array.
 // To declare string use keyword 'String'.
+// In string we use equals() method to compare string not == because in heap string pool is maintained 
+// 		where same data is been reused.So if comparing same data will always return true as object reference is been compared rather than data.
 
 public class Str {
     public static void main(String[] args) {

@@ -39,7 +39,7 @@ public class StaticMethod {
     public static void main(String[] args) {
       Comp a1=new Comp(101,80000);
       Comp a2=new Comp(102,85000);
-      Comp.change();   // calling static method 
+      Comp.change();   // calling static method // this static method updates the
       Comp.call();
       a1.display();
       a2.display();
